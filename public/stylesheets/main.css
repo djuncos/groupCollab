@@ -1,5 +1,24 @@
 body{
 
+
 font-family: 'Raleway';
+/*font-family: 'Audiowide', cursive;*/
+background-image:url("../images/background01.jpg");
+background-size: cover;
+
+	
+
+}
+
+.brand{
+
+	font-size: 150px;
+	float: right;
+	margin-right: 10%;
+	margin-top: 5%;
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+
 
 }

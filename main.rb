@@ -13,8 +13,8 @@ end
 # 	erb :contactUs
 # end
 
-# get '/home' do
-# 	erb :home
+# get '/aboutUs' do
+# 	erb :aboutUs
 # end
 
 

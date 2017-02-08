@@ -2,7 +2,7 @@ require 'sinatra'
 
 
 get '/' do
-	erb :layout
+	erb :gallery
 end
 
 # get '/gallery' do

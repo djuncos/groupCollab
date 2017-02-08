@@ -2,10 +2,11 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link href="../lightbox_master/dist/css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
 	
 </head>
 
@@ -20,23 +21,22 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">MDDT Inc.</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Project Portal</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
   </div>
 </nav>
 
-<h1 class="brand">MDDT</h1>
 
-
-
+<%= yield %>
 
 <script type="text/javascript" src="javascript/jquery.js"></script>
+<script type="text/javascript" src="../lightbox_master/dist/js/lightbox.js"></script>
 <script type="text/javascript" src="javascript/main.js"></script>
 </body>
 

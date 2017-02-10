@@ -2,7 +2,11 @@ require 'sinatra'
 
 
 get '/' do
-	erb :layout
+	erb :home
+end
+
+get '/aboutUs' do
+	erb :aboutUs
 end
 
 # get '/gallery' do
@@ -13,8 +17,5 @@ end
 # 	erb :contactUs
 # end
 
-# get '/aboutUs' do
-# 	erb :aboutUs
-# end
 
 

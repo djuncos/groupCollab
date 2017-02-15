@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-	
-</head>
+  <head>
+    <title>MDDT</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 
+  </head>
 
+  <body>
 
-<body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-heaer">
+          <a class="navbar-brand" href="/">MDDT</a>
+        </div>
 
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/aboutUs">About Us</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/contactUs">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <script type="text/javascript" src="javascript/jquery.js"></script>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="/">Home</a></li>
-      <li><a href="/contactUs">Contact</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
+    <%= yield %>
 
-
-<%= yield %>
-
-
-
-
-<script type="text/javascript" src="javascript/jquery.js"></script>
-<script type="text/javascript" src="javascript/main.js"></script>
-</body>
-
-
+  </body>
 </html>

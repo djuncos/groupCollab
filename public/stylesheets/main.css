@@ -1,17 +1,18 @@
-body{
-
-
-font-family: 'Raleway';
-/*font-family: 'Audiowide', cursive;*/
-background-image:url("../images/background01.jpg");
-background-size: cover;
-
-	
-
+body {
+	background: url("../images/background01.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.brand{
+form, textarea {
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+}
 
+.brand {
 	font-size: 150px;
 	float: right;
 	margin-right: 10%;
@@ -19,6 +20,20 @@ background-size: cover;
 	color: white;
 	text-shadow: 1px 1px black;
 	font-weight: bold;
-
-
 }
+
+#body, #email {
+	background-color: rgba(82, 76, 76, 0.65);
+}
+
+#container {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+

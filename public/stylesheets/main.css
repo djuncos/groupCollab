@@ -7,13 +7,3 @@ body {
 	 -moz-background-size: cover;
 	 -o-background-size: cover;
 }
-
-.background {
-	font-size: 150px;
-	float: right;
-	margin-right: 10%;
-	margin-top: 5%;
-	color: white;
-	text-shadow: 1px 1px black;
-	font-weight: bold;
-}

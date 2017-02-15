@@ -1,6 +1,5 @@
 require 'sinatra'
 
-
 get '/' do
 	erb :home
 end
@@ -13,9 +12,7 @@ get '/gallery' do
 	erb :gallery
 end
 
-# get '/contactUs' do
-# 	erb :contactUs
-# end
-
-
+get '/contactUs' do
+	erb :contactUs
+end
 

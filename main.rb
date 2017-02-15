@@ -11,7 +11,3 @@ end
 get '/gallery' do
 	erb :gallery
 end
-
-# get '/' do
-# 	erb :aboutUs
-# end
